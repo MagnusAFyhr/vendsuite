@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/events/pom.xml" />
+        <option value="$PROJECT_DIR$/fleet/pom.xml" />
+        <option value="$PROJECT_DIR$/machine/pom.xml" />
+        <option value="$PROJECT_DIR$/pointofsale/pom.xml" />
+        <option value="$PROJECT_DIR$/site/pom.xml" />
+        <option value="$PROJECT_DIR$/common/exception_handler/pom.xml" />
+        <option value="$PROJECT_DIR$/common/error_library/pom.xml" />
+        <option value="$PROJECT_DIR$/common/event_models/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/tenant/pom.xml" />
+        <option value="$PROJECT_DIR$/inventory/pom.xml" />
+        <option value="$PROJECT_DIR$/point_of_sale/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
