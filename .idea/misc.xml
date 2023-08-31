@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/inventory/pom.xml" />
         <option value="$PROJECT_DIR$/point_of_sale/pom.xml" />
         <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/application/pom.xml" />
       </list>
     </option>
   </component>

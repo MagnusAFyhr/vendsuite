@@ -6,13 +6,13 @@
 		<artifactId>vendsuite</artifactId>
 		<groupId>com.packapuff</groupId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath>../../pom.xml</relativePath>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<groupId>com.packapuff.vendsuite.common</groupId>
-	<artifactId>error_library</artifactId>
+	<groupId>com.packapuff.vendsuite</groupId>
+	<artifactId>application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>error_library</name>
-	<description>Error library for VendSuite</description>
+	<name>application</name>
+	<description>Main Application of VendSuite Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -21,20 +21,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-    </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>
