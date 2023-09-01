@@ -1,10 +1,10 @@
 package com.packapuff.services.fleet.service.event;
 
-import com.packapuff.services.fleet.service.dto.user.FleetUserResponse;
 import com.packapuff.services.fleet.service.user.FleetUserService;
-import com.packapuff.services.user.service.dto.UserResponse;
 import com.packapuff.vendsuite.common.event_models.enums.CrudEventType;
 import com.packapuff.vendsuite.common.event_models.model.UserEvent;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetUserResponse;
+import com.packapuff.vendsuite.common.event_models.responses.user.UserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 

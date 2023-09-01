@@ -1,10 +1,6 @@
 package com.packapuff.services.fleet.service.utility;
 
-import com.packapuff.services.machine.api.MachineController;
-import com.packapuff.services.user.api.UserController;
-import com.packapuff.services.user.service.dto.GetUsersRequest;
-import com.packapuff.services.user.service.dto.UserResponse;
-import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;

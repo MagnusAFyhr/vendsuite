@@ -1,8 +1,7 @@
 package com.packapuff.services.fleet.service.repository;
 
 
-import com.packapuff.services.fleet.service.entity.Fleet;
-import com.packapuff.services.fleet.service.entity.FleetUser;
+\import com.packapuff.services.fleet.service.entity.FleetUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

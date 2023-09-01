@@ -3,11 +3,9 @@ package com.packapuff.services.events.service;
 
 import com.packapuff.services.events.service.enums.EventServiceEventTopic;
 import com.packapuff.vendsuite.common.event_models.enums.ConnectionEventType;
-import com.packapuff.vendsuite.common.event_models.enums.CrudEventType;
-import com.packapuff.vendsuite.common.event_models.enums.EventResourceType;
 import com.packapuff.vendsuite.common.event_models.model.BaseSystemEvent;
-import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
 import com.packapuff.services.events.service.producer.EventProducer;
+import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

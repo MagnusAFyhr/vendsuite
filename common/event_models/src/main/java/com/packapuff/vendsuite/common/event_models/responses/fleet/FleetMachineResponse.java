@@ -1,4 +1,4 @@
-package com.packapuff.inventory.service.dto.category;
+package com.packapuff.vendsuite.common.event_models.responses.fleet;
 
 import lombok.*;
 
@@ -10,15 +10,15 @@ import java.time.OffsetDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CategoryResponse implements Serializable {
+public class FleetMachineResponse implements Serializable {
 
     /**
      * serial version id
      */
     private static final long serialVersionId = 1L;
-    private Integer categoryId;
-    private String name;
-    private String description;
+    private Integer fleetMachineAssocId;
+    private Integer fleetId;
+    private Integer machineId;
     private OffsetDateTime createdTimestamp;
     private OffsetDateTime updatedTimestamp;
 

@@ -1,6 +1,7 @@
 package com.packapuff.services.fleet.service;
 
 import com.packapuff.services.fleet.service.event.FleetEventProducer;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetResponse;
 import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
 import com.packapuff.services.fleet.service.converter.FleetConverter;
 import com.packapuff.services.fleet.service.dto.*;

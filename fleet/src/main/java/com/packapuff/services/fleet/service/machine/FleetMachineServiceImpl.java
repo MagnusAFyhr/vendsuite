@@ -1,12 +1,11 @@
 package com.packapuff.services.fleet.service.machine;
 
-import com.packapuff.services.fleet.service.entity.Fleet;
 import com.packapuff.services.fleet.service.event.FleetMachineEventProducer;
 import com.packapuff.services.fleet.service.utility.FleetUtilities;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetMachineResponse;
 import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
 import com.packapuff.services.fleet.service.converter.FleetMachineConverter;
 import com.packapuff.services.fleet.service.dto.machine.CreateFleetMachineRequest;
-import com.packapuff.services.fleet.service.dto.machine.FleetMachineResponse;
 import com.packapuff.services.fleet.service.dto.machine.GetFleetsMachinesRequest;
 import com.packapuff.services.fleet.service.entity.FleetMachine;
 import com.packapuff.services.fleet.service.repository.FleetMachineRepository;

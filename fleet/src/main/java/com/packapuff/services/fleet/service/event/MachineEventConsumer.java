@@ -1,15 +1,12 @@
 package com.packapuff.services.fleet.service.event;
 
 import com.packapuff.services.fleet.service.dto.machine.CreateFleetMachineRequest;
-import com.packapuff.services.fleet.service.dto.machine.FleetMachineResponse;
 import com.packapuff.services.fleet.service.machine.FleetMachineService;
-import com.packapuff.services.machine.service.dto.MachineResponse;
 import com.packapuff.vendsuite.common.event_models.enums.CrudEventType;
 import com.packapuff.vendsuite.common.event_models.model.MachineEvent;
+import com.packapuff.vendsuite.common.event_models.responses.machine.MachineResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
-
-import java.util.List;
 
 import static com.packapuff.services.fleet.service.constants.FleetConstants.ZERO_FLEET;
 

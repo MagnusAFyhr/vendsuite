@@ -1,9 +1,8 @@
 package com.packapuff.services.fleet.service.event;
 
-import com.packapuff.services.fleet.service.dto.FleetResponse;
-import com.packapuff.services.fleet.service.entity.Fleet;
 import com.packapuff.vendsuite.common.event_models.enums.CrudEventType;
 import com.packapuff.vendsuite.common.event_models.model.FleetEvent;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 

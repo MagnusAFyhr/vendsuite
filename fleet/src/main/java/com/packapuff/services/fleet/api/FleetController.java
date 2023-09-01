@@ -1,6 +1,7 @@
 package com.packapuff.services.fleet.api;
 
 import com.packapuff.services.fleet.service.dto.*;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetResponse;
 import jakarta.validation.Valid;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.http.MediaType;

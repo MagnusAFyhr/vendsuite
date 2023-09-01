@@ -1,16 +1,15 @@
 package com.packapuff.vendsuite.tenant.service;
 
+import com.packapuff.vendsuite.common.event_models.responses.tenant.TenantResponse;
 import com.packapuff.vendsuite.common.exception_handler.exception.VendSuiteException;
 import com.packapuff.vendsuite.tenant.service.converter.TenantConverter;
 import com.packapuff.vendsuite.tenant.service.dto.CreateTenantRequest;
 import com.packapuff.vendsuite.tenant.service.dto.GetTenantsRequest;
-import com.packapuff.vendsuite.tenant.service.dto.TenantResponse;
 import com.packapuff.vendsuite.tenant.service.dto.UpdateTenantRequest;
 import com.packapuff.vendsuite.tenant.service.entity.Tenant;
 import com.packapuff.vendsuite.tenant.service.event.TenantEventProducer;
 import com.packapuff.vendsuite.tenant.service.repository.TenantRepository;
 import com.packapuff.vendsuite.tenant.service.utilities.TenantUtilities;
-import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

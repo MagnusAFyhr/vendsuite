@@ -1,8 +1,8 @@
 package com.packapuff.services.fleet.service.converter;
 
 import com.packapuff.services.fleet.service.dto.user.CreateFleetUserRequest;
-import com.packapuff.services.fleet.service.dto.user.FleetUserResponse;
 import com.packapuff.services.fleet.service.entity.FleetUser;
+import com.packapuff.vendsuite.common.event_models.responses.fleet.FleetUserResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

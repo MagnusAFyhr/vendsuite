@@ -2,10 +2,8 @@ package com.packapuff.services.machine.service.event;
 
 import com.packapuff.services.machine.service.MachineService;
 import com.packapuff.services.machine.service.dto.UpdateMachineRequest;
-import com.packapuff.services.machine.service.entity.Machine;
 import com.packapuff.vendsuite.common.event_models.model.MachineConnectionEvent;
 import com.packapuff.vendsuite.common.event_models.payloads.MachineConnectionPayload;
-import jakarta.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

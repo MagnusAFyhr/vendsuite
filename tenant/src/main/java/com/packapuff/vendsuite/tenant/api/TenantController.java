@@ -3,7 +3,6 @@ package com.packapuff.vendsuite.tenant.api;
 import com.packapuff.vendsuite.tenant.service.TenantService;
 import com.packapuff.vendsuite.tenant.service.dto.CreateTenantRequest;
 import com.packapuff.vendsuite.tenant.service.dto.GetTenantsRequest;
-import com.packapuff.vendsuite.tenant.service.dto.TenantResponse;
 import com.packapuff.vendsuite.tenant.service.dto.UpdateTenantRequest;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
